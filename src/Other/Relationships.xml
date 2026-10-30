@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_vendor_invoice" />
+  <EntityRelationship Name="business_unit_vendor_vendor" />
+  <EntityRelationship Name="lk_vendor_invoice_createdby" />
+  <EntityRelationship Name="lk_vendor_invoice_modifiedby" />
+  <EntityRelationship Name="lk_vendor_vendor_createdby" />
+  <EntityRelationship Name="lk_vendor_vendor_modifiedby" />
+  <EntityRelationship Name="owner_vendor_invoice" />
+  <EntityRelationship Name="owner_vendor_vendor" />
+  <EntityRelationship Name="team_vendor_invoice" />
+  <EntityRelationship Name="team_vendor_vendor" />
+  <EntityRelationship Name="user_vendor_invoice" />
+  <EntityRelationship Name="user_vendor_vendor" />
+</EntityRelationships>

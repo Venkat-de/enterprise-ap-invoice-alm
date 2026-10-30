@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{33353436-daff-4c77-9450-03bb637b517e}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="vendor_invoicenumber" select="1" icon="1" preview="1">
+        <row name="result" id="vendor_invoiceid">
+          <cell name="vendor_invoicenumber" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="vendor_invoice">
+          <attribute name="vendor_invoiceid" />
+          <attribute name="vendor_invoicenumber" />
+          <attribute name="createdon" />
+          <order attribute="vendor_invoicenumber" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Invoice Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
